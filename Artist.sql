@@ -3,3 +3,5 @@
 	[ArtistName] VARCHAR(100),
 	[Country] varchar(50)
 );
+
+
