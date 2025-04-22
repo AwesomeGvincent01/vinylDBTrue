@@ -1,6 +1,9 @@
-﻿CREATE TABLE [dbo].[Customer]
+﻿USE [vinylDBTrue];
+GO
+
+CREATE TABLE [dbo].[Genre]
 (
-	[GenreId] INT NOT NULL PRIMARY KEY,
+	[GenreID] INT NOT NULL PRIMARY KEY,
 	[Name] VARCHAR(50)
 
 )
