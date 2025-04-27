@@ -1,0 +1,2 @@
+﻿ALTER TABLE OrderDetail
+ALTER COLUMN Price DECIMAL(10,2);

@@ -7,7 +7,7 @@ CREATE TABLE [dbo].[OrderDetail]
 	[OrderID] INT,
 	[RecordID] INT,
 	[Quantity] INT,
-	[Price] INT,
+	[Price] DECIMAL,
 	FOREIGN KEY (OrderID) REFERENCES [dbo].[ORDER](OrderID),
 	FOREIGN KEY (RecordID) References [dbo].[Record](RecordID)
 
